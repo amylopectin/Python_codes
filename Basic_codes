@@ -29,3 +29,9 @@ print(y)
 def function(x):
     return x*x
 print(function(5) + function(7))
+
+
+###
+def function(x,y):
+    return x*x+y*y
+print(function(5,7))
