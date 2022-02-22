@@ -1,0 +1,32 @@
+## text print
+i=1
+while i<=3:
+    print("I'm a man")
+    i+=1
+    
+I'm a man
+I'm a man
+I'm a man
+
+
+## even number
+i=1
+while i<=50:
+    print(i*2)
+    i+=1
+    
+    
+## How to find fine the lowest multiple of 26 among number more than 100
+i=100
+while i%26!=0:
+    i+=1
+print(i)     # 104
+---
+
+i=1
+while i<=100:
+   print(i*26)
+   i += 1      
+
+#26,52,78,104,130,...
+---
