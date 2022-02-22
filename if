@@ -1,0 +1,28 @@
+##
+temp=7
+if temp <=10:
+    print("put gloves")
+else:
+    print("Do not put on")
+  
+    
+## elif
+def grade(first_grade, second_grade):
+    Total = first_grade + second_grade
+
+    if Total >= 90:
+       print("A")
+    elif Total >= 80:
+       print("B")
+    elif Total >= 70:
+       print("C")
+    elif Total >= 60:
+       print("D")
+    else:
+       print("F")
+
+grade(40, 45)
+grade(20, 35)
+grade(30, 32)
+grade(50, 45)
+#B,F,D,A
