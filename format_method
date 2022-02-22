@@ -1,0 +1,13 @@
+##
+print("Today is {}/{}/{}".format(day,month,year))  # Today is 22/2/2022
+
+x="Today is {}/{}/{}"
+print(x.format(day,month,year))  # Today is 22/2/2022
+
+x="Today is {}/{}/{}"
+print(x.format(day+1,month+1,year+1))  # Today is 23/3/2023
+
+
+##
+print("I like {},{},{}".format("apple","orange","watermelon"))
+print("I like {2},{1},{0}".format("apple","orange","watermelon"))
