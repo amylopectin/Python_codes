@@ -1,0 +1,10 @@
+print(int(3.8))  # 3
+print(float(3))  # 3.0
+
+print(int("2") + int("5"))  # 7
+print(float("1.1") + float("2.5"))  # 3.6
+
+print(str(2) + str(5))  #25
+
+age=25
+print("My age is " + str(age) + " and I'm Young")  # My age is 25 and I'm Young
