@@ -28,3 +28,24 @@ while i<=100:
    i += 1      
 #26,52,78,104,130,...
 ---
+
+
+## sum of all number between 1 to 10
+i = 1
+total = 0
+
+while i <= 10:
+    total += i
+    i += 1
+print(total)
+#55
+---
+
+or 1000
+i = 1
+total = 0
+
+while i <= 5000:
+    total += i
+    i += 1
+print(total)
