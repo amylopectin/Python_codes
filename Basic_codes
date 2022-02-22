@@ -5,8 +5,22 @@ def hello(name):
 
 hello("Chris")
 
+
 ###
 def print_sum(a,b,c):
     print(a+b-c+(a+b+c))
 
 print_sum(7,3,10)
+
+
+###
+def function(x):
+    return ((x*x)-x)/x
+print (function(5))
+
+
+###
+def function(x):
+    return ((x*x)-x)/x
+y=function(10)
+print(y)
