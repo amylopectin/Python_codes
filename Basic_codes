@@ -35,3 +35,13 @@ print(function(5) + function(7))
 def function(x,y):
     return x*x+y*y
 print(function(5,7))
+
+
+# floor division
+print(8/5)  # 1.6
+print(8.0//5) # 1.0
+
+
+# round
+print(round(3.1414926535),2)
+print(round(print(8.0/5)),4)
