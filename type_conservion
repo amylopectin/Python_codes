@@ -20,4 +20,7 @@ print("Today is " + str(day) + "/" + str(month) + "/" + str(year))  # Today is 2
 
 
 ## Format method
-print("Today is {}/{}/{}".format(day,month,year))
+print("Today is {}/{}/{}".format(day,month,year))  # Today is 22/2/2022
+
+x="Today is {}/{}/{}"
+print(x.format(day,month,year))  # Today is 22/2/2022
