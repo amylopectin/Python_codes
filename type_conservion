@@ -16,4 +16,8 @@ print("My age is " + str(age) + " and I'm Young")  # My age is 25 and I'm Young
 year=2022
 month=2
 day=22
-print("Today is " + str(year) + "/" + str(day) + "/" + str(month))
+print("Today is " + str(day) + "/" + str(month) + "/" + str(year))  # Today is 22/2/2022
+
+
+## Format method
+print("Today is {}/{}/{}".format(day,month,year))
