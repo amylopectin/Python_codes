@@ -23,3 +23,9 @@ def function(x):
     return ((x*x)-x)/x
 y=function(10)
 print(y)
+
+
+###
+def function(x):
+    return x*x
+print(function(5) + function(7))
