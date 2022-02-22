@@ -45,3 +45,11 @@ print(8.0//5) # 1.0
 # round
 print(round(3.1414926535),2)
 print(round(print(8.0/5)),4)
+
+
+# round
+print("A")
+print("B")
+
+print("Data is" + " Null")
+print("Null"*5)
