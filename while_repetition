@@ -49,3 +49,16 @@ while i <= 5000:
     total += i
     i += 1
 print(total)
+
+
+## Fibonacci number
+previous = 0
+current = 1
+i = 1
+
+while i <= 50:
+    print(current)
+    temp = previous  # save previous in temp
+    previous = current
+    current = current + temp
+    i += 1
